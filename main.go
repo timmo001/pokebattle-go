@@ -127,7 +127,6 @@ func main() {
 	)
 	ErrCheck(formCreature.Run())
 
-	// TODO: Do something with the options
 	game := Game{
 		PlayerCreature:   playerCreature,
 		OppenentCreature: &WaterDude,
@@ -196,7 +195,6 @@ func main() {
 	} else {
 		log.Println("You win!")
 	}
-
 }
 
 func ErrCheck(err error) {
